@@ -22,7 +22,7 @@ The demo has also been created to enable ease of access to create new cards.
 * [Maven](https://maven.apache.org/) - Dependency Management
 
 ## Authors
-* **John So** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **John So**
 
 ## Acknowledgments
 *  Mayfair Games
