@@ -4,16 +4,14 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="player0" class="com.example.familybusiness.Player">
+    <bean id="player0" class="com.example.familybusiness.Models.GameComponents.Player">
         <property name="id" value="0"/>
         <property name="name" value="Player0"/>
-        <property name="aliveMobMembers" value="2"/>
     </bean>
 
-    <bean id="player1" class="com.example.familybusiness.Player">
+    <bean id="player1" class="com.example.familybusiness.Models.GameComponents.Player">
         <property name="id" value="1"/>
         <property name="name" value="Player1"/>
-        <property name="aliveMobMembers" value="2"/>
     </bean>
 
 </beans>

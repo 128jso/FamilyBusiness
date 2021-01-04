@@ -10,25 +10,50 @@
 <!--    2 = TAKE IT ON THE LAM-->
 <!--    3 = VALENTINE'S DAY MASSACRE-->
 
-    <bean id="card0" class="com.example.familybusiness.ActionCards">
-        <property name="cardID" value="0"/>
+    <bean id="card0" class="com.example.familybusiness.Models.GameComponents.Card">
+        <property name="id" value="0"/>
         <property name="cardName" value="CONTRACT"/>
         <property name="cardDescription" value="Place an opponent's mobster on the Hit List"/>
-        <property name="cardFrequency" value="40"/>
+        <property name="cardFrequency" value="12"/>
     </bean>
 
-    <bean id="card1" class="com.example.familybusiness.ActionCards">
-        <property name="cardID" value="1"/>
+    <bean id="card0a" class="com.example.familybusiness.Models.GameComponents.Card">
+        <property name="id" value="0"/>
+        <property name="cardName" value="CONTRACT"/>
+        <property name="cardDescription" value="Place an opponent's mobster on the Hit List"/>
+        <property name="cardFrequency" value="3"/>
+        <property name="counterCard" value="1"/>
+    </bean>
+
+    <bean id="card0b" class="com.example.familybusiness.Models.GameComponents.Card">
+        <property name="id" value="0"/>
+        <property name="cardName" value="CONTRACT"/>
+        <property name="cardDescription" value="Place an opponent's mobster on the Hit List"/>
+        <property name="cardFrequency" value="3"/>
+        <property name="counterCard" value="2"/>
+    </bean>
+
+    <bean id="card0c" class="com.example.familybusiness.Models.GameComponents.Card">
+        <property name="id" value="0"/>
+        <property name="cardName" value="CONTRACT"/>
+        <property name="cardDescription" value="Place an opponent's mobster on the Hit List"/>
+        <property name="cardFrequency" value="3"/>
+        <property name="counterCard" value="3"/>
+    </bean>
+
+
+    <bean id="card1" class="com.example.familybusiness.Models.GameComponents.Card">
+        <property name="id" value="1"/>
         <property name="cardName" value="TAKE IT ON THE LAM"/>
         <property name="cardDescription" value="Remove 1 mobster from the Hit List."/>
         <property name="cardFrequency" value="20"/>
     </bean>
 
-    <bean id="card2" class="com.example.familybusiness.ActionCards">
-        <property name="cardID" value="2"/>
+    <bean id="card2" class="com.example.familybusiness.Models.GameComponents.Card">
+        <property name="id" value="2"/>
         <property name="cardName" value="VALENTINE'S DAY MASSACRE"/>
         <property name="cardDescription" value="Execute all mobsters on the Hit List."/>
-        <property name="cardFrequency" value="5"/>
+        <property name="cardFrequency" value="1"/>
     </bean>
 
 </beans>
