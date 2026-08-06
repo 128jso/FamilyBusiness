@@ -1,28 +1,45 @@
-# Family Business Demo
+# 🎮 Family Business (`FamilyBusiness`)
 
-A demo game of the popular board game __Family Business__
+An interactive **Java & Spring Boot** digital implementation of the strategic card game **Family Business**, where players command mobster families competing for territorial dominance.
 
-## Rules
-Family business is a card game in which 2-6 players can compete for Mob dominance. Players are in charge of a group of
-mobsters (9) that are placed periodically on a Hit List. When certain conditions are met, a Mob War begins and each turn the
-player that's at the top of the Hit List loses a mobster forever.
+---
 
-In this demo, there are only two cards that can be used:
-* Contract (Place Opponent's mobster on the Hit List)
-* Take It on the Lam (Rescue one of your own mobsters from the Hit List)
+## 🎯 Game Overview & Mechanics
 
-Further rules for the game can be found [here](https://www.ultraboardgames.com/family-business/game-rules.php).
+**Family Business** is a turn-based strategy game for 2–6 players competing for mob supremacy.
 
-## Considerations
-The demo has been created to enable for any number of players based on the user's choice.
-The demo has also been created to enable ease of access to create new cards.
+- 👥 **Mobster Squad Management**: Each player controls a family of 9 mobsters.
+- 🎯 **The Hit List**: Players play tactical cards to place opponent mobsters onto the Hit List.
+- ⚔️ **Mob Wars & Elimination**: When the Hit List reaches critical capacity, a Mob War erupts, eliminating mobsters at the top of the queue each turn.
+- 🛡️ **Counter Play**: Execute counter-tactics like *"Take It on the Lam"* to rescue family mobsters from the Hit List.
 
-## Built With
-* [Spring](https://spring.io/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
+---
 
-## Authors
-* **John So**
+## 🛠️ Architecture & Built With
 
-## Acknowledgments
-*  Mayfair Games
+- **Language**: Java 11 / Java 17
+- **Framework**: Spring Boot (REST & Core Dependency Injection)
+- **Build System**: Apache Maven
+- **Design Patterns**: Command Pattern for card execution, Factory Pattern for mobster/card entity creation, and Observer Pattern for game state loops.
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/128jso/FamilyBusiness.git
+cd FamilyBusiness
+```
+
+### 2. Build & Run
+```bash
+# Using Maven Wrapper
+./mvnw spring-boot:run
+```
+
+---
+
+## 📄 License & Credits
+- **Author**: John So (`128jso`)
+- **Game Design Inspiration**: Mayfair Games
